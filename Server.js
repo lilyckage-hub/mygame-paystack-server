@@ -1,0 +1,1 @@
+Const app equals express. Const port equals process dot env dot port or 3000. Then, app dot use express dot JSON. App dot get slash, send hello from Paystack backend. App listen on port, then log server running on port
