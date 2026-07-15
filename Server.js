@@ -9,7 +9,7 @@ import { webhooksRouter } from "./webhooks.js";
 import { shopRouter } from "./shop.js";
 import { giftsRouter } from "./gifts.js";
 
-const REQUIRED_ENV = ["PAYSTACK_SECRET_KEY"];
+const REQUIRED_ENV = ["DATABASE_URL", "JWT_SECRET"PAYSTACK_SECRET_KEY"];
 for (const key of REQUIRED_ENV) {
   if (!process.env[key]) {
     console.error(`Missing required environment variable: ${key}`);
