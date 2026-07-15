@@ -4,12 +4,12 @@
   "description": "Backend server to link Paystack to a gaming app",
   "main": "Server.js",
   "type":"module",
-  "scripts": {
+  {
     "start": "node Server.js"
   },
-  "bcryptjs":"^2.4.3,
   "dependencies": {"dotenv":"^16.4.5",
     "cors":"^2.8.5",
+    "bcryptjs":"^2.4.3,
     "express": "^4.19.2"
   },
   "engines": {
