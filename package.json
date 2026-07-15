@@ -9,7 +9,7 @@
   },
   "dependencies": {"dotenv":"^16.4.5",
     "cors":"^2.8.5",
-    "bcryptjs":"^2.4.3,
+    "bcryptjs":"^2.4.3",
     "express": "^4.19.2"
   },
   "engines": {
