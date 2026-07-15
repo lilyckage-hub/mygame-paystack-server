@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Backend server to link Paystack to a gaming app",
   "main": "Server.js",
+  "type":"module",
   "scripts": {
     "start": "node Server.js"
   },
