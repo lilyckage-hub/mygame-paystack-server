@@ -58,7 +58,7 @@ const SHOP_ITEMS = [
 // ── Backend link ──────────────────────────────────────────────
 // Replace with your deployed Render URL, e.g. "https://glitch-api.onrender.com"
 // Leave as-is and the app runs in local-only demo mode (no real network calls).
-const API_BASE_URL = "https://YOUR-APP-NAME.onrender.com";
+const API_BASE_URL = "https://mygame-paystack-server-1.onrender.com";
 
 async function apiFetch(path, options = {}, token) {
   const res = await fetch(`${API_BASE_URL}${path}`, {
